@@ -1,0 +1,34 @@
+{
+  "name": "ssehub-test",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A set of tests for SSE Hub",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vgno/ssehub-test.git"
+  },
+  "keywords": [
+    "ssehub",
+    "tests"
+  ],
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "eslint": "^0.23.0",
+    "eventsource": "^0.1.6",
+    "got": "^3.2.0",
+    "istanbul": "^0.3.15",
+    "lodash.merge": "^3.3.1",
+    "lodash.once": "^3.0.1",
+    "mocha": "^2.2.5",
+    "split": "^1.0.0",
+    "vgno-coding-standards": "^1.0.6",
+    "which": "^1.1.1",
+    "lodash.ary": "^3.0.1"
+  }
+}

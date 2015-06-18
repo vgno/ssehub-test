@@ -1,0 +1,8 @@
+{
+    "default": {
+        "allowedOrigins":  "*"
+    },
+    "channels": [{
+        "path": "sse"
+    }]
+}
